@@ -222,6 +222,9 @@
             "./config/packages/sensio_framework_extra.yaml"
         ]
     },
+    "symfony/amqp-messenger": {
+        "version": "v5.3.14"
+    },
     "symfony/asset": {
         "version": "v5.3.11"
     },
@@ -272,6 +275,9 @@
     },
     "symfony/doctrine-bridge": {
         "version": "v5.3.11"
+    },
+    "symfony/doctrine-messenger": {
+        "version": "v5.3.14"
     },
     "symfony/dom-crawler": {
         "version": "v5.3.7"
@@ -367,6 +373,18 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
+    "symfony/messenger": {
+        "version": "5.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "4.3",
+            "ref": "25e3c964d3aee480b3acc3114ffb7940c89edfed"
+        },
+        "files": [
+            "./config/packages/messenger.yaml"
+        ]
+    },
     "symfony/mime": {
         "version": "v5.3.11"
     },
@@ -456,6 +474,9 @@
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.11"
+    },
+    "symfony/redis-messenger": {
+        "version": "v5.3.14"
     },
     "symfony/routing": {
         "version": "5.3",
@@ -575,6 +596,18 @@
             "./config/packages/dev/web_profiler.yaml",
             "./config/packages/test/web_profiler.yaml",
             "./config/routes/dev/web_profiler.yaml"
+        ]
+    },
+    "symfony/webapp-meta": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "67cae591d131c133d63b893c5324796b88c59b34"
+        },
+        "files": [
+            "./config/packages/messenger.yaml"
         ]
     },
     "symfony/webpack-encore-bundle": {
